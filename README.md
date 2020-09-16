@@ -11,7 +11,7 @@
 
 - 데이터 4만 개(악성 3만 개, 정상 1만 개)를 실험에 사용하였다.
 
-- 임베딩 기법의 성능 비교를 위해 피처 해싱(Feature Hashing) 기법을 사용한 성능과 비교했다. 성능 평가는 5 폴드 교차 검증으로 검증을 진행했다. 사용한 피처는 다음과 같다.
+- 임베딩 기법의 성능 비교를 위해 피처 해싱(Feature Hashing) 기법을 사용한 성능과 비교했다. 성능 평가는 5 폴드 교차 검증으로 검증을 진행했다. 사용한 피처는 다음과 같다.<br><br>
 pefile 에서 추출할 수 있는 정보 중,
 1. IAT 함수만 사용
 2. File Header + Optional Header + Data Directory + IAT 함수 사용
@@ -30,7 +30,7 @@ We can check the .dlls and functions imported by the executable file with the IA
 
 - 40,000 data (30,000 malware, 10,000 normal) were used in the experiment.
 
-- To compare the performance of the embedding technique, it was compared with the performance using the feature hashing technique. The performance evaluation was verified by 5-fold cross-validation. The features are used as follows.
+- To compare the performance of the embedding technique, it was compared with the performance using the feature hashing technique. The performance evaluation was verified by 5-fold cross-validation. The features are used as follows. <br><br>
 Among the information that can be extracted from pefile,
 1. Use only IAT function
 2. Use File Header + Optional Header + Data Directory + IAT function
