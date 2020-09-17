@@ -38,3 +38,4 @@ Among the information that can be extracted from pefile,
 ## Reference
 - https://rguigoures.github.io/word2vec_pytorch/
 - https://programmer.group/pytorch-implements-word2vec.html
+- Dynamic Malware Analysis with Feature Engineering and Feature Learning (https://arxiv.org/abs/1907.07352)
