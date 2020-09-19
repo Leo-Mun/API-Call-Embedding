@@ -22,7 +22,7 @@
 
 - GatedCNN + Bi-LSTM 모델을 사용하여 API Call Sequence 학습
 
-## This project is a machine learning-based malware detection using static features.
+## A Study on Malware Detection Using API Call Sequence Embedding and Embedding Vector
 
 ### Problem Definition
 We can check the .dlls and functions imported by the executable file with the IAT (Import Address Table) of the executable file (.exe). Since the number of functions used in executable file is different for each file, pre-processing is required to use them as features in machine learning.
